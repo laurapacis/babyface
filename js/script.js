@@ -39,7 +39,7 @@ const fillResult = (array, listOfIngredients) => {
 // if statement that gives an answer to the user
 const outputForUser = (result) => {
     if (result != 0) {
-        answer.innerText = (`Unfortunately it contains: ${result}. These ingredients may irritate your skin`);
+        answer.innerText = (`Unfortunately it contains: ${result}. These ingredients may irritate your skin.`);
     } else {
         answer.innerText = (`Nice! It seems like all these ingredients are safe even for sensitive skin!`);
     }
