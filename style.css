@@ -22,9 +22,9 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 83%;
   background-color: rgb(255, 255, 255, 0.2);
-  margin: 10% auto;
+  margin: 17% auto;
   padding: 7rem 5rem 3rem 5rem;
   display: flex;
   flex-direction: column;
