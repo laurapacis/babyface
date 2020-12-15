@@ -22,10 +22,10 @@ body {
 }
 
 .container {
-  width: 83%;
+  width: 80%;
   background-color: rgb(255, 255, 255, 0.2);
-  margin: 14% auto;
-  padding: 7rem 5rem 3rem 5rem;
+  margin: 10% auto;
+  padding: 6rem 3rem 3rem 4rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -36,14 +36,14 @@ body {
 }
 
 .container h1 {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   font-weight: 500;
   text-align: center;
   width: 100%;
 }
 
 .container h3 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 400;
   text-align: center;
   margin-top: 2rem;
@@ -75,7 +75,7 @@ textarea {
 }
 
 button {
-  width: 50%;
+  width: 70%;
   margin: 0;
   margin-right: 5px;
   border-radius: 35px;
