@@ -1,0 +1,122 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  cursor: url("https://freight.cargo.site/t/original/i/929c0a9f4cbb8c5fcb9b6f600cc46b238721c2f5fd7954ecfc74227dbda5884a/cursornegro.png"),
+    auto !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: Open Sans, sans-serif;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 31%,
+    rgba(255, 179, 103, 1) 100%
+  );
+}
+
+.container {
+  width: 70%;
+  background-color: rgb(255, 255, 255, 0.2);
+  margin: 3% auto;
+  padding: 7rem 5rem 3rem 5rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 15px;
+}
+
+.container h1 {
+  font-size: 2.3rem;
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
+}
+
+.container h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.container p {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 200;
+  line-height: 2rem;
+  margin-top: 2rem;
+}
+
+a {
+  color: #000000;
+}
+
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 90%;
+  font-size: 1.2rem;
+  height: 15rem;
+  padding: 1.2rem 2rem;
+  resize: none;
+  border: 2px solid rgb(252, 247, 247);
+  border-radius: 4px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  width: 50%;
+  margin: 0;
+  margin-right: 5px;
+  border-radius: 35px;
+  background-color: #e9e5ef;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  color: #000;
+  background-color: #fff;
+  border-color: #e6e6e6;
+}
+
+@media only screen and (min-width: 798px) {
+  .container {
+    width: 60%;
+    margin: 5% auto;
+    padding: 13rem 9rem 6rem 9rem;
+  }
+
+  .container h1 {
+    font-size: 3.9rem;
+  }
+
+  .container h3 {
+    width: 80%;
+    font-size: 1.7rem;
+  }
+
+  .container p {
+    font-size: 1.2rem;
+  }
+
+  textarea {
+    font-size: 1.3rem;
+  }
+
+  button {
+    width: 40%;
+    padding: 15px 32px;
+    margin-bottom: 0rem;
+  }
+}
