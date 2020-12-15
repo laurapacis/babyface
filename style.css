@@ -25,7 +25,7 @@ body {
   width: 80%;
   background-color: rgb(255, 255, 255, 0.2);
   margin: 10% auto;
-  padding: 6rem 3rem 3rem 4rem;
+  padding: 6rem 1rem 3rem 1rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
