@@ -4,17 +4,17 @@ const userInput = document.getElementById('input')
 
 const checkerIngredients = "oxybenzones, avobenzone, octinoxate, homosalate, octisalate, octocrylene, fragrance, hydrogen peroxide, sodium lauryl sulfate, sodium silicate, sodium hydroxide, sodium metabisulfite, sodium sulfite, sodium thioglycolate, SD alcohol 40-2, SD alcohol, sodium bisulfite, sodium borate, sodium carbonate, zinc carbonate, zinc sulfate, petrolatum, petroleum jelly, paraffin oil, mineral oil, white petrolatum, petrolem. oil, paraffinium, dimethicone, methicone, trimethicone, cyclomethicone, amodimethicone, trimethylsilylamodimethicone siloxane, cyclopentasiloxane, polydimethylsiloxane conol, ethyl paraben, nutylparaben, methylparaben, propylparaben, isobutylparaben, isopropylparaben, peg, ppg, isopropylparapen, isobutylparaben, propyl parapen, butylparaben, phthalate, dea, tea, perfume, aroma, fullerenes, micronized zinc oxide, nano zinc oxide, micronized titanium dioxide, micronized quartz silica, acetic acid, acetone, calamine, elecampane, english ivy extract, equisetum arvense, esculin, essential oil, ethanol, eucalyptus oil, eugenia aromatica, eugenol, eugenia caryophyllus, comfrey extract, denatured alcohol, fennel oil, fennel seed extract, ferula galbaniflua, fir needle oil, foeniculum vulgare extract, frankincense extract, galbanum, gardenia florida extract, geraniol, geranium oil, geranium pretense, ginger oil, isopropyl alcohol, jasmine oil, jasminium grandiflorum, jonquil extract, juniper berry, juniperus communis, kathon cg, kava-kava extract, kawa extract, kola nut, lavandin oil, lavandula angustifolia, lavandula officinalis, lavender extract, lavender oil, lemon, lemon balm, lemon juice, lemon oil, lemongrass extract, lemongrass oil, gold, grapefruit oil, parfum";
 
-// string method that transforms string into an array
+// transform string into an array
 const arrOfCheckerIngredients = checkerIngredients.split(', ');
 
-// function that transform the string given by the user into an array
+// transform the string given by the user into an array
 const handleValue = (value) => {
     let newValue = value;
     let valueUserInput = newValue.toLowerCase().split(', ');
     return valueUserInput
 }
 
-// creates an object with all the ingredients given by the user
+// create an object with all the ingredients given by the user
 const makelistOfIngredients = (valueUserInput) => {
     const listOfIngredients = {};
     for (let i = 0; i < valueUserInput.length; i++) {
@@ -25,7 +25,7 @@ const makelistOfIngredients = (valueUserInput) => {
     return listOfIngredients
 }
 
-// creates an array with the ingredients that match
+// create an array with the ingredients that match
 const fillResult = (array, listOfIngredients) => {
     const result = []
     array.forEach((ingredient) => {
@@ -36,7 +36,7 @@ const fillResult = (array, listOfIngredients) => {
     return result
 }
 
-// if statement that gives an answer to the user
+// give an answer to the user
 const outputForUser = (result) => {
     if (result != 0) {
         answer.innerText = (`Unfortunately it contains: ${result}. These ingredients may irritate your skin.`);
@@ -45,7 +45,7 @@ const outputForUser = (result) => {
     }
 }
 
-// "main" function that checks if the user input matches our given ingredients 
+// check if the user input matches our given ingredients 
 const checkIngredients = (userInput, arrOfCheckerIngredients) => {
     let value = userInput.value
     let valueUserInput = handleValue(value)
