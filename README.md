@@ -1,6 +1,6 @@
 ### babyface - Your Skincare Ingredient Checker
 
-Users can visit [babyface](https://laurapacis.github.io/babyface/) to quickly search for sensitizers and allergens in an ingredient list of skincare products :sparkles:
+Users can visit [babyface](https://babyface.vercel.app/) to quickly search for sensitizers and allergens in an ingredient list of skincare products :sparkles:
 
 This project is built with Vanilla JavaScript and styled with plain CSS. Still in progress.
 
