@@ -1,9 +1,10 @@
-### Skincare Ingredient Checker
+### babyface - Your Skincare Ingredient Checker
 
-[https://laurapacis.github.io/skincare-ingredient-checker/](https://laurapacis.github.io/skincare-ingredient-checker/)
+Users can visit [babyface](https://laurapacis.github.io/babyface/) to quickly search for sensitizers and allergens in an ingredient list of skincare products :sparkles:
 
-Users can visit the [Skincare Ingredient Checker](https://laurapacis.github.io/skincare-ingredient-checker/) to quickly search for sensitizers and allergens in an ingredient list of skincare products :sparkles:
+This project is built with Vanilla JavaScript and styled with plain CSS. Still in progress.
 
-This project is still in progress.
+![Typefesse](https://velvetyne.fr/fonts/typefesse/) font is courtesy of ![Ocèane Juvin](http://oceanejuvin.fr/)
 
+![mobile-view](img/mobile-view.png)
 ![desktop-view](img/desktop-view.png)

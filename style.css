@@ -1,10 +1,18 @@
+@font-face {
+  font-family: "Typefesse-dark";
+  src: url("/font/Typefesse_Pleine.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Typefesse-light";
+  src: url("/font/Typefesse_Claire-Obscure.woff") format("woff");
+}
+
 :root {
   font-size: 62.5%;
 }
 
 * {
-  cursor: url("https://freight.cargo.site/t/original/i/929c0a9f4cbb8c5fcb9b6f600cc46b238721c2f5fd7954ecfc74227dbda5884a/cursornegro.png"),
-    auto !important;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,7 +20,8 @@
 
 body {
   font-size: 1.6rem;
-  font-family: Open Sans, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+
   background: rgb(238, 174, 202);
   background: linear-gradient(
     90deg,
@@ -36,8 +45,9 @@ body {
 }
 
 .container h1 {
-  font-size: 2.8rem;
-  font-weight: 500;
+  font-size: 5.3rem;
+  font-weight: 100;
+  font-family: Typefesse-dark;
   text-align: center;
   width: 100%;
 }
@@ -58,6 +68,8 @@ body {
 }
 
 a {
+  font-family: Typefesse-light;
+  font-weight: 600;
   color: #000000;
 }
 
@@ -98,7 +110,7 @@ button:hover {
   }
 
   .container h1 {
-    font-size: 3.9rem;
+    font-size: 7rem;
   }
 
   .container h3 {

@@ -1,4 +1,4 @@
-window.alert("The following site is for educational purposes only! In case you want to start using a new skincare product please talk to your dematologist first.");
+// window.alert("The following site is for educational purposes only! In case you want to start using a new skincare product please talk to your dematologist first.");
 
 const userInput = document.getElementById('input')
 
@@ -41,7 +41,7 @@ const outputForUser = (result) => {
     if (result != 0) {
         answer.innerText = (`Unfortunately it contains: ${result}. These ingredients may irritate your skin.`);
     } else {
-        answer.innerText = (`Nice! It seems like all these ingredients are safe even for sensitive skin!`);
+        answer.innerText = (`Cool beans! It seems like all these ingredients are safe even for sensitive skin!`);
     }
 }
 
