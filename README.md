@@ -4,7 +4,7 @@ Users can visit [babyface](https://laurapacis.github.io/babyface/) to quickly se
 
 This project is built with Vanilla JavaScript and styled with plain CSS. Still in progress.
 
-![Typefesse](https://velvetyne.fr/fonts/typefesse/) font is courtesy of ![Ocèane Juvin](http://oceanejuvin.fr/)
+[Typefesse](https://velvetyne.fr/fonts/typefesse/) font is courtesy of [Ocèane Juvin](http://oceanejuvin.fr/)
 
-![mobile-view](img/mobile-view.png)
-![desktop-view](img/desktop-view.png)
+[mobile-view](img/mobile-view.png)
+[desktop-view](img/desktop-view.png)
