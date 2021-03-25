@@ -7,4 +7,4 @@ This project is built with Vanilla JavaScript and styled with plain CSS. Still i
 [Typefesse](https://velvetyne.fr/fonts/typefesse/) font is courtesy of [Ocèane Juvin](http://oceanejuvin.fr/)
 
 ![mobile-view](img/mobile-view.png)
-![desktop-view](img/desktop-view.png)
+![desktop-view2](img/desktop-view2.png)

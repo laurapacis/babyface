@@ -1,11 +1,13 @@
 @font-face {
   font-family: "Typefesse-dark";
-  src: url("/font/Typefesse_Pleine.woff") format("woff");
+  src: url("/font/Typefesse_Pleine.woff") format("woff"),
+    url("/font/Pilowlava-Regular.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Typefesse-light";
-  src: url("/font/Typefesse_Claire-Obscure.woff") format("woff");
+  src: url("/font/Typefesse_Claire-Obscure.woff") format("woff"),
+    url("/font/Typefesse_Claire-Obscure.woff2") format("woff2");
 }
 
 :root {
