@@ -41,7 +41,7 @@ const outputForUser = (result) => {
     if (result != 0) {
         answer.innerText = (`Unfortunately it contains: ${result}. These ingredients may irritate your skin.`);
     } else {
-        answer.innerText = (`Cool beans! It seems like all these ingredients are safe even for sensitive skin!`);
+        answer.innerText = (`It seems like all these ingredients are safe even for sensitive skin!`);
     }
 }
 
